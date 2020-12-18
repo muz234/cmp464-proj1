@@ -9,11 +9,6 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Muzaffar Ahmed</h2>
-            <img
-              src="https://photos.app.goo.gl/Yp1rH1jmVN6RPBZP7"
-              alt="avatar"
-              style={{height: '250px'}}
-               />
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
