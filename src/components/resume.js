@@ -11,13 +11,7 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
-              <img
-                src=""
-                alt="avatar"
-                style={{height: '200px'}}
-                 />
-            </div>
+            
 
             <h2 style={{paddingTop: '2em'}}>MUZAFFAR AHMED</h2>
             <h4 style={{color: 'grey'}}>DEVELOPER</h4>
