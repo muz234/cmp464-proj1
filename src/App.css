@@ -120,3 +120,7 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.display-linebreak {
+  white-space: pre-line;
+}

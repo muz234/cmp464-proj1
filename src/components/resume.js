@@ -7,8 +7,12 @@ import Skills from './skills';
 
 class Resume extends Component {
   render() {
+    const textExpOne = 'Community Engagement Specialist \n Work in collaboration with the Case Investigator from the local health department (LHD). \n Authenticate RedCap data with Salesforce to verify the accuracy of the case records(ex.DOB, Address, Contact Info).\n Communicate with contacts of newly diagnosed cases by providing CDC guidelines and city resources.\n Collect and record information on symptoms and needs into the CRM with accuracy.\n Collaborate with the media team to educate communities with CDC guidelines.'
+    const textExpTwo = 'Licensed Real-estate Agent \n Conducted market research to advise sellers on maximizing profits from the sale of homes. \n Advised prospective buyers on the suitability and value of the home to solidify the customer relationship. \n Evaluated mortgage options to assist customers in securing the best roles. '
+    const textExpThr = 'Front-End Developer Intern \n Customized REACT based web app compatible with Right-To-Left languages like Arabic. \n Identified string required for translation through the simulator. \n Resolved the bugs on the code which has issues translating strings. \n Implemented new libraries to make the application more dynamic by using features like interpolator. \n Authenticated the GitHub Pull Request from other engineers.'
+    const textExpFor = 'Universal Banker \n Worked as Banker and Teller for maximum efficiency. \n Developed workflow procedures to maximize productivity and reduce errors in a fast pace work environment.  \n Referred high valued potential customer to Financial Advisor for better utilization of funds. \n Selected as Digital captain for digital curiosity, to navigate customers towards digital banking and help associates in the district with behavior to achieve the organizational mission of digital banking. \n Selected as top three best associates in the market for performance, simplicity, digital curiosity, integrity, net promoter score, and changing banking for good.'
     return(
-      <div>
+      <div className="display-linebreak">
         <Grid>
           <Cell col={4}>
             
@@ -51,18 +55,31 @@ class Resume extends Component {
               <h2>Experience</h2>
 
             <Experience
-              startYear={0}
-              endYear={0}
-              jobName=""
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2020}
+              endYear={2021}
+              jobName="New York City Health & Hospitals "
+              jobDescription={textExpOne}
+              
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName=""
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2017}
+                endYear={2020}
+                jobName="Besmatch Real Estate"
+                jobDescription= {textExpTwo}
                 />
+            <Experience
+              startYear={2018}
+              endYear={2018}
+              jobName="Artemis"
+              jobDescription={textExpThr}
+            />
+            <Experience
+              startYear={2015}
+              endYear={2017}
+              jobName="CapitalOne Bank"
+              jobDescription={textExpFor}
+            />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills

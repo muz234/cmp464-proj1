@@ -9,11 +9,11 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Muzaffar Ahmed</h2>
+            <img src="./src/favicon.ico"/>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr/>
-
             <div className="contact-list">
               <List>
                 <ListItem>
