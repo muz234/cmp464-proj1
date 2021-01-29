@@ -78,7 +78,8 @@
 
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  padding-top: 10em;
+  border-Radius: 400/ 2;
 }
 
 .banner-text {
