@@ -1,6 +1,23 @@
 {
-  "main.css": "static/css/main.3447a849.css",
-  "main.css.map": "static/css/main.3447a849.css.map",
-  "main.js": "static/js/main.4383c1c4.js",
-  "main.js.map": "static/js/main.4383c1c4.js.map"
+  "files": {
+    "main.css": "/muzaffarahmed/static/css/main.f162a1ee.chunk.css",
+    "main.js": "/muzaffarahmed/static/js/main.b52f008b.chunk.js",
+    "main.js.map": "/muzaffarahmed/static/js/main.b52f008b.chunk.js.map",
+    "runtime-main.js": "/muzaffarahmed/static/js/runtime-main.08d9fe2f.js",
+    "runtime-main.js.map": "/muzaffarahmed/static/js/runtime-main.08d9fe2f.js.map",
+    "static/css/2.86fbdad3.chunk.css": "/muzaffarahmed/static/css/2.86fbdad3.chunk.css",
+    "static/js/2.7399323e.chunk.js": "/muzaffarahmed/static/js/2.7399323e.chunk.js",
+    "static/js/2.7399323e.chunk.js.map": "/muzaffarahmed/static/js/2.7399323e.chunk.js.map",
+    "index.html": "/muzaffarahmed/index.html",
+    "static/css/2.86fbdad3.chunk.css.map": "/muzaffarahmed/static/css/2.86fbdad3.chunk.css.map",
+    "static/css/main.f162a1ee.chunk.css.map": "/muzaffarahmed/static/css/main.f162a1ee.chunk.css.map",
+    "static/js/2.7399323e.chunk.js.LICENSE.txt": "/muzaffarahmed/static/js/2.7399323e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08d9fe2f.js",
+    "static/css/2.86fbdad3.chunk.css",
+    "static/js/2.7399323e.chunk.js",
+    "static/css/main.f162a1ee.chunk.css",
+    "static/js/main.b52f008b.chunk.js"
+  ]
 }
