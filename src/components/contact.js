@@ -7,16 +7,18 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h1>Muzaffar Ahmed</h1>
+            <h1>  Muzaffar Ahmed  </h1>
             <img src="/images/avatarMain.png"
             alt="avatarMain"
               style={{ height: '250px', borderradius: `10px`}}/>
-            <p style={{width:'75%', margin: 'auto',paddinTop:`1em`, fontFamily:'comic-sans'}}>Muzaffar is a detail oriented and result driven professional with years of experience in sales. 
+            <p style={{width:'75%', margin: 'auto',paddinTop:`1em`, fontFamily:'comic-sans'}}>
+              Muzaffar is a detail oriented and result driven professional with years of experience in sales. 
               He has always met the quarterly deadlines expeditiously while keeping quality intact. 
               His work ethic and diligence always brings back the best results. 
               Maintains professionalism and display of charisma has made him a very personable individual. 
               His skill set includes relationship building, sharp attention to detail, 
-              and a natural problem solving ability. </p>
+              and a natural problem solving ability. 
+            </p>
 
           </Cell>
           <Cell col={6}>
