@@ -30,7 +30,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>mahmed.res@gmail.com</p>
             <h5>Web</h5>
-            <p></p>
+            <p>www.muzaffarahmed.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
