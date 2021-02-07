@@ -10,8 +10,8 @@ class Contact extends Component {
             <h1>Muzaffar Ahmed</h1>
             <img src="/images/avatarMain.png"
             alt="avatarMain"
-              style={{ height: '200px', borderradius: `10px`}}/>
-            <p style={{width:'75%', margin: 'auto',paddinTop:`2em`, fontFamily:'comic-sans'}}>Muzaffar is a detail oriented and result driven professional with years of experience in sales. 
+              style={{ height: '250px', borderradius: `10px`}}/>
+            <p style={{width:'75%', margin: 'auto',paddinTop:`1em`, fontFamily:'comic-sans'}}>Muzaffar is a detail oriented and result driven professional with years of experience in sales. 
               He has always met the quarterly deadlines expeditiously while keeping quality intact. 
               His work ethic and diligence always brings back the best results. 
               Maintains professionalism and display of charisma has made him a very personable individual. 
@@ -25,14 +25,14 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton', margin: 'auto'}}>
+                  <ListItemContent style={{ fontSize: '25px', fontFamily: 'Anton', margin: 'auto'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
                     (646)824-6407
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                  <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
                    mahmed.res@gmail.com 
                   </ListItemContent>
