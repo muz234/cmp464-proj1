@@ -7,12 +7,7 @@ class Landing extends Component {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}>
-           <img
-              src="/images/avatarMain.png"
-              alt='avatar'
-              className="avatar-img" />
-         
+          <Cell col={12}>        
             <div className="banner-text">
                   <h1>Full Stack Web Developer</h1>
                 <hr/>
@@ -30,8 +25,6 @@ class Landing extends Component {
                   <i className="fa fa-twitter-square" aria-hidden="true" />
                 </a>
                 {/* twitter */}
-                
-
             </div>
             </div>
           </Cell>
