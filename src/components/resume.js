@@ -15,8 +15,6 @@ class Resume extends Component {
       <div className="display-linebreak">
         <Grid>
           <Cell col={4}>
-            
-
             <h2 style={{paddingTop: '2em'}}>MUZAFFAR AHMED</h2>
             <h4 style={{color: 'grey'}}>DEVELOPER</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -33,10 +31,9 @@ class Resume extends Component {
             <p>www.muzaffarahmed.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
+          
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
-
             <Education
               startYear={2018}
               endYear={2021}
@@ -59,8 +56,7 @@ class Resume extends Component {
               endYear={2021}
               jobName="New York City Health & Hospitals "
               jobTitle="Community Engagement Specialist"
-              jobDescription={textExpOne}
-              
+              jobDescription={textExpOne}    
               />
 
               <Experience
@@ -84,8 +80,8 @@ class Resume extends Component {
               jobTitle="Universal Banker"
               jobDescription={textExpFor}
             />
-            <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
+          <hr style={{borderTop: '3px solid #e22947'}} />
+          <h2>Skills</h2>
               <Skills skill="Java"/>
               <Skills skill="SQL"/>
               <Skills skill="Python" />

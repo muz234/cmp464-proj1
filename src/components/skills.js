@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
+import { Grid, Cell, ProgressBar,FormRow } from 'react-mdl';
 
 class Skills extends Component {
   render() {
     return(
+      /*
       <Grid
         container
         direction="row"
@@ -14,8 +15,8 @@ class Skills extends Component {
           <div style={{display: 'flex'}}>{this.props.skill} </div>
         </Cell>
       </Grid>
-
-        /*
+*/
+        
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
           <Cell col={12}>
@@ -24,7 +25,7 @@ class Skills extends Component {
           <FormRow />
         </Grid>
       </Grid>
-      */
+      
     )
   }
 }
