@@ -52,7 +52,7 @@ class Resume extends Component {
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
-              <h2>Experience</h2>
+            <h2>Experience</h2>
 
             <Experience
               startYear={2020}
@@ -84,44 +84,17 @@ class Resume extends Component {
               jobTitle="Universal Banker"
               jobDescription={textExpFor}
             />
-              <hr style={{borderTop: '3px solid #e22947'}} />
+            <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
-              <Skills
-                skill="Java"
-                progress="0"
-              />
-              <Skills
-                skill="SQL"
-                progress="0"
-              />
-              <Skills
-                skill="Python"
-                progress="0"
-              />
-              <Skills
-                skill="Javascript"
-                progress="0"
-              />
-              <Skills
-                skill="React"
-                progress="0"
-              />
-              <Skills
-                skill="HTML/CSS"
-                progress="0"
-              />  
-              <Skills
-                skill="Android"
-                progress="0"  
-                />          
-              <Skills
-                skill="AWS"
-                progress="0"
-                />  
-              <Skills
-                skill="Github"
-                progress="0" 
-              />                
+              <Skills skill="Java"/>
+              <Skills skill="SQL"/>
+              <Skills skill="Python" />
+              <Skills skill="Javascript" />
+              <Skills skill="React" />  
+              <Skills skill="HTML/CSS" /> 
+              <Skills skill="Android" />           
+              <Skills skill="AWS" />               
+              <Skills skill="Github" />                         
           </Cell>
         </Grid>
       </div>

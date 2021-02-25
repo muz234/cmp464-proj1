@@ -77,6 +77,8 @@
 /* contact page css */
 
 .avatar-img {
+  
+  box-sizing: inherit;
   height: 250px;
   padding-top: 5em;
   border-Radius: 400/ 2;
