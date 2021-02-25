@@ -7,7 +7,7 @@ class Landing extends Component {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}>        
+         {/* <Cell col={12}>     */  } 
             <div className="banner-text">
                   <h1>Full Stack Web Developer</h1>
                 <hr/>
@@ -27,7 +27,7 @@ class Landing extends Component {
                 {/* twitter */}
             </div>
             </div>
-          </Cell>
+          {/*</Cell>*/}
         </Grid>
       </div>
       
