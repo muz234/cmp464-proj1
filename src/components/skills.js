@@ -20,7 +20,7 @@ class Skills extends Component {
       <Grid container spacing={1}>
         <Grid container item xs={12} spacing={3}>
           {/* <Cell col={12}> */}
-            <div style={{display: 'flex', height:'5rem', width: '5rem', border:'1px solid white', alignItems: 'center', justifyContent:'center', flexDirection:'row', fontSize:'12px'}}>{this.props.skill} </div>
+            <div className='grid-flow-horizontal' style={{display: 'flex', height:'5rem', width: '5rem', border:'1px solid white', alignItems: 'center', justifyContent:'center', flexDirection:'row', fontSize:'12px'}}>{this.props.skill} </div>
           {/* </Cell> */}
         </Grid>
       </Grid>

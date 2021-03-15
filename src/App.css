@@ -126,3 +126,9 @@
 .display-linebreak {
   white-space: pre-line;
 }
+
+.grid-flow-horizontal{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2%;
+}
